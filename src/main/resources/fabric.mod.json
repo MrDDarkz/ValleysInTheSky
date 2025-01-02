@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vits",
+	"version": "${version}",
+	"name": "Valleys In The Sky",
+	"description": "Partially inspired by Stardew Valley",
+	"authors": [
+		"DDarkz"
+	],
+	"contact": {
+		"homepage": " ",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "LGPL-3.0-only",
+	"icon": "assets/vits/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ddarkz.vits.ValleysInTheSky"
+		],
+		"fabric-datagen": [
+			"ddarkz.vits.ValleysInTheSkyDataGenerator"
+		],
+		"client": [
+			"ddarkz.vits.ValleysInTheSkyClient"
+		]
+	},
+	"mixins": [
+		"vits.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
