@@ -1,0 +1,6 @@
+{
+  "parent": " minecraft:item/generated",
+  "textures": {
+    "layer0": "vits:item/generic_scythe"
+  }
+}
